@@ -1,2 +1,5 @@
-# numpy-for-qc
-Numpy for Quantum Computing
+# Numpy for Quantum Computing
+
+In this notebook we have look at 5 numpy functions that would be useful when looking to simulate quantum mechanics or learn quantum computation. These are mostly functions related to linear algebra, which is not surprising because linear algebra is in essence the language of quantum mechanics. Often when we try to do simulations in quantum computers, by making use of various quantum computing programming languages like Qiskit and Q#, we come across situations where we need to compare the measured value of our experiments with the exact ones. This is very much required in this era of Noisy Intermediate-Scale Quantum (NISQ) computing due to the large amount of noise induced by simple individual gates. We can make use of these simple numpy functions to compute exact values and compare them to the obtained values, thereby helping to reduce unwanted noise and errors.
+
+This notebook was created for partial fulfilment of the requirements of the course "Data Analysis with Python: Zero to Pandas" offered by Jovian.ml in partnership with freecodecamp.
